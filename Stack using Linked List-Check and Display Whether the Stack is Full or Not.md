@@ -29,8 +29,22 @@ To write a Python program that:
    - Otherwise, print "Stack is not full".
 
 ## 📝 Program
-Add Code here
+```
+\from queue import LifoQueue
+
+stack = LifoQueue(maxsize=4)
+
+stack.put('a')
+stack.put('b')
+stack.put('c')
+if stack.full():
+    print("Staeck is full")
+else:
+    print("Stack is not full")
+```
 
 ## Sample Input & Output
+![image](https://github.com/user-attachments/assets/bc0932fd-ad13-4234-9241-a5fb90477a9b)
 
 ## Result
+  Thus the Python program demonstrates how to check if a stack (using `LifoQueue` from the `queue` module) is full or not. It uses the `full()` method to determine the stack's status and then displays the appropriate message executed successfully
