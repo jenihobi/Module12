@@ -1,3 +1,4 @@
+
 # 📚 Stack using Linked List: Check and Print the Index Value of the Elements Stored in the Stack
 
 This Python program demonstrates how to:
@@ -31,8 +32,23 @@ To write a Python program that:
    - For each element in the stack, print the index and the value at that index.
 
 ## 📝 Program
-Add Code here
+```
+stack = []
+
+# Insert 3 elements
+stack.append('a')
+stack.append('b')
+stack.append('c')
+
+print('Initial stack: ' + str(stack))
+
+# Print index and element
+for i in range(len(stack)):
+    print(i, stack[i])
+```
 
 ## Sample Input & Output
+![image](https://github.com/user-attachments/assets/2eabfbfe-6b7d-439e-9bf6-4229b6f287ee)
 
 ## Result
+ Hence the Stack using Linked List: Check and Print the Index Value of the Elements Stored in the Stack was done
